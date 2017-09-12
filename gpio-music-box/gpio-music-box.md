@@ -2,13 +2,13 @@
 
 Wire up a series of buttons that play particular sounds when pressed.
 
-## Playing sounds with Python
+## Pythonen soinuak sortzen
 
-1. Open Python 3 (IDLE) from the main menu.
+1. Ireki Python 3 (IDLE) aplikazioa menu nagusitik.
 
-1. Click **File > New File**.
+1. Egin klik **fitxategia > Fitxategi berria** Ingelesez: **File > New File**.
 
-1. Write the following code to play a drum sound:
+1. Idatzi ondorengo kodea danbor zarata entzuteko:
 
     ```python
     import pygame.mixer
@@ -21,13 +21,13 @@ Wire up a series of buttons that play particular sounds when pressed.
     drum.play()
     ```
 
-1. Save the file with `Ctrl + S` and run with `F5`.
+1. Gorde fichategia `Ctrl + S` sakatuz eta exekutatu `F5` sakatuz.
 
-    It should play the drum sound. Run it again to repeat.
+    Danbor zarata entzun beharko zenuke. Errepikatu ondo dabilela ikusteko.
 
-## Connect first button to sound file
+## Soinuak eta botoiak konektatzen
 
-1. Return to the code window and add another two lines to the top section of imports:
+1. Itzuli kodea dagoen lehiora eta gehitu ondorengo lerroak:
 
     ```python
     import pygame.mixer
